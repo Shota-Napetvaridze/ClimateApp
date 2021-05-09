@@ -37,6 +37,7 @@ class WeatherViewController: UIViewController{
 //MARK: - UITextFieldDelegate
 
 extension WeatherViewController: UITextFieldDelegate{
+    
     @IBAction func searchButton(_ sender: UIButton) {
         searchTextField.endEditing(true)
     }
